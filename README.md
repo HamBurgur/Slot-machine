@@ -6,7 +6,6 @@ learning python thru a small projet
 # Game Logics:
 <detail>
 <summary> Expand </summary> 
-
 ## How Get Money Works 
 ### Our concern :  Negative numbers , Zero Amount, Alphabets
 
