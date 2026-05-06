@@ -13,7 +13,7 @@ def getmoney():
                 raise negativeError("Cant have negative money blud ")
             
         except ValueError:
-            print("Only Numbers ")
+            print("Only Integer Numbers ")
 
         except negativeError as e:
             print(e)
@@ -21,7 +21,8 @@ def getmoney():
     return Amount
 
 
+Amount = getmoney()
+print (f"the money is {Amount}")
 
 
-
-print (f"the money is {getmoney()}")
+print(Amount)
